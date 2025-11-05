@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c9a104c4f38322e9ba6fc1a536280e43",
+    "packages": [
+        {
+            "name": "dupot/static-management-framework",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/imikado/dupotStaticManagementFramework.git",
+                "reference": "00fe9fa7f0c42d5486da665a0dd0281cbdee2532"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/imikado/dupotStaticManagementFramework/zipball/00fe9fa7f0c42d5486da665a0dd0281cbdee2532",
+                "reference": "00fe9fa7f0c42d5486da665a0dd0281cbdee2532",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dupot\\StaticManagementFramework\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Bertocchi",
+                    "email": "imikado@gmail.com",
+                    "homepage": "https://www.dupot.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "framework to manage static website",
+            "homepage": "https://www.dupot.org",
+            "support": {
+                "issues": "https://github.com/imikado/dupotStaticManagementFramework/issues",
+                "source": "https://github.com/imikado/dupotStaticManagementFramework/tree/1.0.0"
+            },
+            "time": "2023-01-22T22:01:04+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}

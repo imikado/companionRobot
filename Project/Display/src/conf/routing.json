@@ -1,0 +1,37 @@
+[
+    {
+        "pattern": "#/setup.html#",
+        "class": "App\\Infrastructure\\Pages\\SetupPage",
+        "method": "index"
+    },
+    {
+        "pattern": "#/setup_edit_([0-9]*).html#",
+        "class": "App\\Infrastructure\\Pages\\SetupPage",
+        "method": "edit"
+    },
+    {
+        "pattern": "#/menu.html#",
+        "class": "App\\Infrastructure\\Pages\\MenuPage",
+        "method": "index"
+    },
+    {
+        "pattern": "#/messages.html#",
+        "class": "App\\Infrastructure\\Pages\\MessagesPage",
+        "method": "index"
+    },
+    {
+        "pattern": "#/message_sent.html#",
+        "class": "App\\Infrastructure\\Pages\\MessagesPage",
+        "method": "sent"
+    },
+    {
+        "pattern": "#/home_([a-zA-Z]*).html#",
+        "class": "App\\Infrastructure\\Pages\\HomePage",
+        "method": "message"
+    },
+    {
+        "pattern": "#/#",
+        "class": "App\\Infrastructure\\Pages\\HomePage",
+        "method": "index"
+    }
+]

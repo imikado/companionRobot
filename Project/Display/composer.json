@@ -1,0 +1,18 @@
+{
+    "name": "dupot/companion-display",
+    "type": "project",
+    "require": {
+        "dupot/static-management-framework": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "imikado",
+            "email": "imikado@gmail.com"
+        }
+    ]
+}

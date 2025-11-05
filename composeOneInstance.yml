@@ -1,0 +1,10 @@
+
+services:
+  web:
+    image: php:8.4-apache-bookworm
+    ports:
+      - "80:80"
+    volumes:
+      - ./Project/:/var/www/html
+      - /tmp/companion1/data:/var/www/data
+      #- ./Container/vhosts/:/etc/apache2/sites-enabled/

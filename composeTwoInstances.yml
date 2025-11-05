@@ -1,0 +1,17 @@
+
+services:
+  web:
+    image: php:8.4-apache-bookworm
+    ports:
+      - "80:80"
+    volumes:
+      - ./Project/:/var/www/html
+      - /tmp/companion1/data:/var/www/data
+ 
+   web2:
+    image: php:8.4-apache-bookworm
+    ports:
+      - "81:80"
+    volumes:
+      - ./Project/:/var/www/html
+      - /tmp/companion2/data:/var/www/data
