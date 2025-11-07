@@ -17,6 +17,19 @@
 
 
 
-<audio id="sound" autoplay controls>
+<audio id="sound" controls preload="auto">
     <source src="<?php echo $this->contextList['sound'] ?>" type="audio/mp4">
 </audio>
+
+<script>
+    var popupsound = document.getElementById("sound");
+
+    function playMessage() {
+        popupsound.play(); //play the audio file
+        // Change background to dancing rick
+        document.body.style.backgroundImage = "url('rick.gif')"
+
+        // Hide the heading and the button
+        document.querySelector(".everything").style.display = "none"
+    }
+</script>

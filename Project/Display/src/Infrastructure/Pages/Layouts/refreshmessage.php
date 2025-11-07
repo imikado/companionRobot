@@ -33,12 +33,12 @@
         }
     </style>
 
-    <meta http-equiv="refresh" content="15">
+    <meta http-equiv="refresh" content="10">
 
 
 </head>
 
-<body>
+<body onload="playMessage()">
 
     <div class="container">
         <?php foreach ($this->contextList['contentList'] as $contentLoop) : ?>
