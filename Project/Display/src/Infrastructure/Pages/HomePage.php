@@ -45,7 +45,7 @@ class HomePage extends ProjectPageAbstract
 
         $view = new View(
             __DIR__ . '/View/home_message.php',
-            ['message' => $message]
+            ['message' => $message, 'sound' => '/Display/eatMessage.m4a']
         );
 
         $this->layout->appendContext('contentList', $view);
@@ -57,7 +57,7 @@ class HomePage extends ProjectPageAbstract
     {
         $messagesApi = new MessagesApi();
         if ($messagesApi->hasMessage()) {
-            $messagesApi->consumeMessage();
+            // $messagesApi->consumeMessage();
         } else {
             return $this->getResponse()->redirect(getLink(self::PAGE, []));
         }
