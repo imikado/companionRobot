@@ -57,7 +57,7 @@ class HomePage extends ProjectPageAbstract
     {
         $messagesApi = new MessagesApi();
         if ($messagesApi->hasMessage()) {
-            // $messagesApi->consumeMessage();
+            $messagesApi->consumeMessage();
         } else {
             return $this->getResponse()->redirect(getLink(self::PAGE, []));
         }
