@@ -38,7 +38,7 @@
 
 </head>
 
-<body onload="playMessage()">
+<body>
 
     <div class="container">
         <?php foreach ($this->contextList['contentList'] as $contentLoop) : ?>

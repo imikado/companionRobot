@@ -17,7 +17,7 @@
 
 
 
-<audio id="sound" controls preload="auto">
+<audio id="sound" controls preload="auto" allow="autoplay">>
     <source src="<?php echo $this->contextList['sound'] ?>" type="audio/mp4">
 </audio>
 
@@ -32,4 +32,5 @@
         // Hide the heading and the button
         document.querySelector(".everything").style.display = "none"
     }
+    playMessage();
 </script>
